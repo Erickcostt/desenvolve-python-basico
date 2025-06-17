@@ -1,0 +1,11 @@
+Início
+    Escreva("Digite um número inteiro n entre 1 e 10:")
+    Leia n
+
+    A = n - 1
+    B = 10 - n
+
+    C = A * 10 + B
+
+    Escreva("9 x ", n, " = ", C)
+Fim
