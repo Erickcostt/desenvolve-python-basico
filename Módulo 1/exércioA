@@ -1,0 +1,20 @@
+Algoritmo para calcular 9 vezes um número n (1 a 10) usando o truque da tabuada do 9
+
+Passos:
+
+1. Entrada:
+   Ler o valor do número n, que deve estar entre 1 e 10.
+
+2. Processamento:
+   Calcular o primeiro dígito (dezena) como A = n - 1.
+   Calcular o segundo dígito (unidade) como B = 10 - n.
+   Calcular o resultado final C = A * 10 + B.
+
+3. Saída:
+   Mostrar o valor de C, que é o resultado da multiplicação 9 x n.
+
+Exemplo: Se n = 3,
+A = 3 - 1 = 2
+B = 10 - 3 = 7
+C = 2 * 10 + 7 = 27
+Portanto, 9 x 3 = 27.
